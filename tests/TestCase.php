@@ -6,12 +6,19 @@ use Vendor\Package\PackageServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
+    /**
+     * @return void
+     */
     public function setUp(): void
     {
         parent::setUp();
         // additional setup
     }
 
+    /**
+     * @param $app
+     * @return string[]
+     */
     protected function getPackageProviders($app)
     {
         return [
@@ -19,6 +26,10 @@ class TestCase extends \Orchestra\Testbench\TestCase
         ];
     }
 
+    /**
+     * @param $app
+     * @return void
+     */
     protected function getEnvironmentSetUp($app)
     {
         // perform environment setup
