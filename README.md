@@ -6,11 +6,11 @@ This is a minimal package scaffolding for [Laravel](https://laravel.com/) packag
 
 `composer test`
 
-`composer test-f` -- runs php unit with the filter flag
+`composer test-f` -- runs PHPUnit with the filter flag
 
 #### Linting with [Laravel Pint](https://laravel.com/docs/9.x/pint)
 
 
 `composer pint`
 
-`composer pint-t` -- runs the pint tests
+`composer pint-t` -- runs the Pint tests
