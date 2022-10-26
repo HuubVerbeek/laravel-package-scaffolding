@@ -1,31 +1,34 @@
 {
-  "name": "vendor/package",
-  "description": "A package",
+  "name": "brisp/livewire-component-requests",
+  "description": "A with the same interface as laravel form requests but then for livewire components.",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "You",
-      "email": "you@you.you",
+      "name": "Huub Verbeek",
+      "email": "h.verbeek@brisp.nl",
       "role": "developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src"
+      "BRISP\\LivewireComponentRequests\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\Package\\Tests\\": "tests"
+      "BRISP\\LivewireComponentRequests\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Vendor\\Package\\PackageServiceProvider"
+        "LivewireComponentRequestsServiceProvider"
       ]
     }
+  },
+  "require": {
+    "livewire/livewire": "^2.10"
   },
   "require-dev": {
     "orchestra/testbench": "^7.0",

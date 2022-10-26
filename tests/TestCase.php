@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\Package\Tests;
+namespace BRISP\LivewireComponentRequests\Tests;
 
-use Vendor\Package\PackageServiceProvider;
+use BRISP\LivewireComponentRequests\LivewireComponentRequestsServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -22,7 +22,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            PackageServiceProvider::class,
+            LivewireComponentRequestsServiceProvider::class,
         ];
     }
 
