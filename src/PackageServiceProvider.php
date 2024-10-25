@@ -1,23 +1,19 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Vendor\Package;
 
 use Illuminate\Support\ServiceProvider;
 
 class PackageServiceProvider extends ServiceProvider
 {
-    /**
-     * @return void
-     */
-    public function register()
+    public function register(): void
     {
         //
     }
 
-    /**
-     * @return void
-     */
-    public function boot()
+    public function boot(): void
     {
         //
     }
