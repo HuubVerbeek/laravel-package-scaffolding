@@ -28,9 +28,9 @@
     }
   },
   "require-dev": {
-    "orchestra/testbench": "^7.0",
-    "phpunit/phpunit": "^9.5",
-    "laravel/pint": "^1.1"
+    "orchestra/testbench": "^9",
+    "phpunit/phpunit": "^11",
+    "laravel/pint": "^1"
   },
   "scripts": {
     "test": "vendor/bin/phpunit",
